@@ -26,14 +26,10 @@ Before you begin, ensure you have the following installed on your system:
    ```bash
    git clone https://github.com/lawrenceadmin/Devops_assignment.git
    cd Devops_assignment
+   docker-compose up --build
 ```
-**Build and run the Docker containers**
-```bash
-docker-compose up --build
 ```
-## Access the application:
-
-Open your web browser and navigate to http://localhost. You should see the greeting message from the Flask application.
+## Open your web browser and navigate to http://localhost. You should see the greeting message from the Flask application.
 Visit http://localhost/data to see the sample JSON
 ## Run the data parsing script
 
