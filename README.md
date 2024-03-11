@@ -1,6 +1,6 @@
 # Flask Application with Docker and Nginx
 
-This project demonstrates how to dockerize a simple Flask application, set up a reverse proxy with Nginx, and write a script to parse data from the application.
+This project demonstrates how to dockerize a simple Flask application, set up a reverse proxy with Nginx, and write a script to parse data from the application. 
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed on your system:
    docker-compose up --build
 ```
 ```
-## Open your web browser and navigate to http://localhost. You should see the greeting message from the Flask application.
+## Open your web browser and navigate to http://localhost. You should see the greeting message from the Flask application.The message can also be supplied/changed  via the environment variable on the docker-compose file. 
 Visit http://localhost/data to see the sample JSON
 ## Run the data parsing script
 
