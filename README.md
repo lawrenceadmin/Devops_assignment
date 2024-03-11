@@ -31,20 +31,20 @@ Before you begin, ensure you have the following installed on your system:
 ```bash
 docker-compose up --build
 ```
-##Access the application:
+## Access the application:
 
 Open your web browser and navigate to http://localhost. You should see the greeting message from the Flask application.
 Visit http://localhost/data to see the sample JSON
-##Run the data parsing script
+## Run the data parsing script
 
 In a separate terminal, run the following command
 ```bash
 python parse_data.py
 ```
 This will retrieve the data from the Flask application, parse it, and create text files in the files/ sub-directory.
-##Check the output files
+## Check the output files
 Verify that the text files have been created correctly in the files/ sub-directory.
-##Clean Up
+## Clean Up
 ```bash
 docker-compose down
 ```
