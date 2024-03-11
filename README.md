@@ -27,7 +27,7 @@ Before you begin, ensure you have the following installed on your system:
    git clone https://github.com/lawrenceadmin/Devops_assignment.git
    cd Devops_assignment
 ```
-## **Build and run the Docker containers**
+**Build and run the Docker containers**
 ```bash
 docker-compose up --build
 ```
